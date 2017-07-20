@@ -71,9 +71,7 @@ class PID:
         self.Kd = derivative_gain
 
     def setWindup(self, windup):
-
         self.windup_guard = windup
 
     def setSampleTime(self, sample_time):
-
         self.sample_time = sample_time
